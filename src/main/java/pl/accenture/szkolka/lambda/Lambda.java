@@ -19,7 +19,7 @@ public class Lambda {
 
         list
                 .stream()
-                .filter(nameStartsWithA.and(lastNameStartsWithB).and(ageOver21))
+                .filter(nameStartsWithA.and(lastNameStartsWithB).and(ageOver20))
                 .forEach(System.out::println);
     }
 }

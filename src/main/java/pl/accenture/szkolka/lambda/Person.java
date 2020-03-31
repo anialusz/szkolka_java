@@ -8,7 +8,7 @@ import java.util.function.Predicate;
 public class Person {
     static Predicate<Person> nameStartsWithA = person -> person.name.toUpperCase().startsWith("A");
     static Predicate<Person> lastNameStartsWithB = person -> person.lastName.toUpperCase().startsWith("B");
-    static Predicate<Person> ageOver21 = person -> person.age > 20;
+    static Predicate<Person> ageOver20 = person -> person.age > 20;
 
     String name;
     String lastName;
